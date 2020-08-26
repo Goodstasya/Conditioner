@@ -11,6 +11,7 @@ class ConditionerTest {
         Conditioner conditioner = new Conditioner();
 
         int currentTemp = 18;
+
         conditioner.setMaxTemperature(35);
         conditioner.setMinTemperature(16);
         conditioner.setCurrentTemperature(currentTemp);
